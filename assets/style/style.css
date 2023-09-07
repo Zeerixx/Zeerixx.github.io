@@ -1,0 +1,209 @@
+body {
+  background-color: #010101;
+  
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(1, 1, 3, 1) 8%,
+    rgba(255, 255, 255, 0) 25%
+  );
+}
+
+.hero .content {
+  padding: 1.4rem;
+  max-width: 60rem;
+}
+
+.hero .content h1 {
+  font-size: 3em;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px;
+  line-height: 1.2;
+}
+
+.hero .content h1 span {
+  color: #b6895b;
+}
+
+.hero .content p {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  line-height: 1.3;
+  mix-blend-mode: difference;
+  color: #ffffff;
+}
+
+.hero .content .cta {
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #b6895b;
+  font-size: 1.3rem;
+  color: #ffff;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  text-decoration: none;
+}
+.navbar {
+  padding: 1rem;
+  border-bottom: 5px #836140;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar .navbar-extra a {
+  color: #ffff;
+  margin: 0 0.5rem;
+}
+
+.jumbotron .container h1 span {
+  color: #836140;
+}
+
+.jumbotron .container h1 {
+  font-size: 4em;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px;
+  line-height: 1.2;
+}
+.jumbotron .container p {
+  mix-blend-mode: difference;
+}
+.jumbotron .container .cta {
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #b6895b;
+  font-size: 1.3rem;
+  color: #ffff;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  text-decoration: none;
+}
+.container-about {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.container-menu {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.container-kontak {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .row .konten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.card .card-body {
+  background-color: #010101;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit] {
+  color: #ffffff;
+  width: 100%;
+  background-color: #836140;
+  color: white;
+  padding: 14px 20px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #b6895b;
+}
+
+.footer {
+  color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  border-top: #836140 1px;
+}
+.ig-icon {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.kontak-bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/bg-utama.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-menu .card {
+  padding: 1rem;
+  background-color: #010101;
+}
